@@ -1,0 +1,269 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+   
+}
+
+.banner{
+    background-image: url(img/banner.png);
+    background-size: cover;
+    color: #ffffff;
+    border-top: 10px solid rgb(83, 198, 94);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 350px;
+}
+
+
+header{
+    align-items: center;
+    background-image: url(img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    grid-area: header;
+    height: 500px;
+    justify-content: center;
+    margin: 0;
+    border-top: 6px solid #2cbf60;
+}
+
+button{
+    background-color: black;
+    border: none;
+    border-radius: 100%;
+    height: 50px;
+    margin: 5px;
+    opacity: 0.7;
+    width: 50px;
+}
+
+button:hover{
+    background-color: #2cbf60;
+    cursor: pointer;
+}
+
+.button{
+    justify-content: space-between;
+}
+
+.text{
+    justify-content: center;
+    width: 100%;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15pt;
+}
+
+.notify{
+    align-items: center;
+    display: flex;
+    font-size: 18pt;
+    font-family: 'Pacifico', cursive;
+}
+
+.dot{
+    color: #2cbf60;
+}
+
+.foto{
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+}
+
+.hand{
+       height: 430px;
+    margin-left: 70px;
+    width: auto;
+  
+}
+.colunas{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+.card{
+    text-align: center;
+        margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.card img{
+    width: 40px;
+    background-color: #2cbf60;
+    border-radius: 100%; 
+    padding: 20px;
+}
+
+.card p{
+    text-align: center;
+    color: #808080;
+    font-size: 15px;
+    width: 340px;
+}
+
+
+main{
+    align-items: center;
+    background-color: #e3e3e3;
+    color: black;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    grid-area: main;
+    height: 300px;
+    justify-content: space-evenly;
+    position: relative;
+    width: auto;
+}
+.caixa-principal{
+    height: 100%;
+    width: auto;
+}
+main p{
+       color: gray;
+    font-size: 13pt;
+    width: 450px;
+    margin-bottom: 25px;
+    line-height:23px;
+
+}
+
+main h3{
+    font-size: 15pt;
+    margin-top: 35px;
+}
+
+main input{
+    border: none;
+    border-radius: 12px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    height: 40px;
+    padding-left: 15px;
+    width: 250px;
+}
+
+.notify-button{
+ font-family: 'Pacifico', cursive;
+    background-color: #2cbf60;
+    border: none;
+    border-radius: 12px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    color: #ffffff;
+    height: 42px;
+    margin: -4px;
+    opacity: 1;
+    width: 90px;
+}
+
+video{
+    border-radius: 10px;
+    width: 500px;
+    height: 260px;
+}
+
+.pessoas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+   
+} 
+
+.citacao{
+    margin-bottom: 15px;
+    margin-top: 45px;
+    color: #a9a9a9;
+    text-align: center;
+    font-style: italic;
+    width: 50%;
+}
+
+#video{
+    margin-left: 5%;
+}
+
+
+.cadastro{
+    display: flex;
+}
+
+.pessoas{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.nome{
+    font-size: 18px;
+    margin: 10px 0px;
+}
+.touch{
+       margin-top: 25px;
+    margin-bottom: 0px;
+
+}
+.galeria{
+    display: flex;
+    width: auto;
+}
+.galeria img{
+    margin: 5px;
+}
+.text-redes{
+       color: gray;
+    font-size: 13pt;
+    margin-bottom: 0px;
+}
+.redes-sociais{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bolinha-cinza{
+    background-color: #808080;
+    color: #000;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    padding:10px;
+
+}
+
+.bolinha-cinza:hover{
+    background-color: #2cbf60;
+}
+footer{
+    align-items: center;
+    background-color: #e3e3e3;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10pt;
+    grid-area: footer;
+    height: 60px;
+    justify-content: space-around;
+    width: auto;
+    margin-top: 10px;
+    
+}
+ 
+footer nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+
+}
+ 
+a{
+    color: gray;
+    text-decoration: none;
+}
